@@ -25,8 +25,8 @@
       </div>
     </div>
 
-    <img src="/static/image/other/close.png" @click="closeBtnClick" class="closeBtn" />
-    <img src="/static/image/other/download.png" @click="downloadBtnClick" class="downloadBtn" />
+    <img src="/ark-signature/static/image/other/close.png" @click="closeBtnClick" class="closeBtn" />
+    <img src="/ark-signature/static/image/other/download.png" @click="downloadBtnClick" class="downloadBtn" />
   </div>
 </template>
 
@@ -88,7 +88,7 @@ export default {
 
         let saveLink = document.createElement('a')
         saveLink.href = image
-        saveLink.download = '签名图'
+        saveLink.download = 'box'
 
         let clickEvent = document.createEvent('MouseEvents')
         clickEvent.initEvent('click', true, false)
@@ -297,7 +297,7 @@ export default {
     align-items: center;
   }
   .bgImg {
-    background-image: url('/static/image/bg.jpeg');
+    background-image: url('/ark-signature/static/image/bg.jpeg');
     background-position: center;
     background-size: cover;
     z-index: 0;

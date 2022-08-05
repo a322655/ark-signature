@@ -156,7 +156,7 @@ export default {
     color: rgb(233, 233, 233);
   }
   .bg {
-    background-image: url('/static/image/bg.jpeg');
+    background-image: url('/ark-signature/static/image/bg.jpeg');
     background-position: center;
     position: fixed;
     width: 100%;

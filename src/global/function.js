@@ -50,27 +50,27 @@ export default class Function {
   }
 
   static getClassIconURL (agentClass) {
-    return '/static/image/class/' + agentClass + '.png'
+    return '/ark-signature/static/image/class/' + agentClass + '.png'
   }
 
   static getStarIconURL (star) {
-    return '/static/image/star/' + star + '.png'
+    return '/ark-signature/static/image/star/' + star + '.png'
   }
 
   static getTypeIconURL (type) {
-    return '/static/image/type/' + type + '.png'
+    return '/ark-signature/static/image/type/' + type + '.png'
   }
 
   static getEliteIconURL (elite) {
-    return '/static/image/elite/' + elite + '.png'
+    return '/ark-signature/static/image/elite/' + elite + '.png'
   }
 
   static getPotentialIconURL (potential) {
-    return '/static/image/potential/' + potential + '.png'
+    return '/ark-signature/static/image/potential/' + potential + '.png'
   }
 
   static getSkillRankIconURL (skillRank) {
-    return '/static/image/skillRank/' + skillRank + '.png'
+    return '/ark-signature/static/image/skillRank/' + skillRank + '.png'
   }
 
   static getAgentAvatarURL (agent) {
@@ -93,6 +93,6 @@ export default class Function {
       }
     }
 
-    return '/static/image/agent/avatar/' + star + '/' + id + '/' + avatar + '.png'
+    return '/ark-signature/static/image/agent/avatar/' + star + '/' + id + '/' + avatar + '.png'
   }
 }

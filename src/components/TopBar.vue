@@ -13,9 +13,9 @@
 export default {
   data () {
     return {
-      akLogoImgSrc: '/static/image/other/logo_ak.png',
-      wbLogoImgSrc: '/static/image/other/logo_wb.png',
-      twLogoImgSrc: '/static/image/other/logo_tw.png',
+      akLogoImgSrc: '/ark-signature/static/image/other/logo_ak.png',
+      wbLogoImgSrc: '/ark-signature/static/image/other/logo_wb.png',
+      twLogoImgSrc: '/ark-signature/static/image/other/logo_tw.png',
       ngaAdress: 'https://bbs.nga.cn/nuke.php?func=ucp&uid=9958269',
       wbAdress: 'https://weibo.com/u/6011086915',
       twAdress: 'https://twitter.com/su_larry'
